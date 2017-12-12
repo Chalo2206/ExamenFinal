@@ -1,0 +1,36 @@
+#cuadro{
+    width: 650px;
+    border-bottom: 1px solid #67b168;
+    border-top: 1px solid #67b168;
+    border-left: 1px solid #67b168;
+    border-right: 1px solid #67b168;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+#cabeza{
+    width: 648px;
+    background: #67b168;
+    height: 70px;
+    border-radius: 10px 10px 0px 0px;
+    padding-left: 11px;
+    padding-top: 6px;
+    color: #fff;
+}   
+#cuerpo{
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    border-radius: 0px 0px 10px 10px;
+    background: #fff;
+}
+
+.styled-select.slate select {
+    border: 1px solid #ccc;
+    font-size: 16px;
+    height: 34px;
+    width: 268px;
+    border-radius: 5px 5px 5px 5px;
+}
+

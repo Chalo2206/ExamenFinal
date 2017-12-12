@@ -1,0 +1,70 @@
+*{
+    border:0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ac2925;
+}
+#Contenedor{
+    background: #fff;
+    height: 1080px;
+    width: 1160px;
+    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+#cuadro{
+    width: 550px;
+    border-bottom: 1px solid #67b168;
+    border-top: 1px solid #67b168;
+    border-left: 1px solid #67b168;
+    border-right: 1px solid #67b168;
+    margin:auto;
+    margin-top: 5px;
+    border-radius: 15px;
+    
+}
+#cabeza{
+    width: 548px;
+    background: #67b168;
+    height: 35px;
+    border-radius: 10px 10px 0px 0px;
+    padding-left: 11px;
+    padding-top: 6px;
+    color: #fff;
+}   
+#cuerpo{
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    border-radius: 0px 0px 10px 10px;
+    background: #fff; 
+}
+
+.styled-select.slate select {
+    border: 1px solid #ccc;
+    font-size: 16px;
+    height: 34px;
+    width: 268px;
+    border-radius: 5px 5px 5px 5px;
+}
+#Lista{
+    background: #fff;
+    width: 560px;
+    height: 1500px;
+    margin: auto;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+#Lista2{
+    background: #fff;
+    width: 560px;
+    height: 1500px;
+    margin: auto;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}

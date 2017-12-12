@@ -1,0 +1,64 @@
+<%@ page pageEncoding="UTF-8" %>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Sistema CRM</title>
+        <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../bootstrap/css/estiloMenu.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="cuadroMenu">
+            <div id="cuerpoMenu">               
+                <table class="table" >
+                    <th>
+                        <a href="<%=request.getContextPath()%>/ServletRegistro">
+                        <img src="../Recursos/Resources/registration.png" class="img-rounded"></a></th>
+                    <th>
+                        <a href="../CMR/contactos.jsp">
+                            <img src="../Recursos/Resources/images 1.png" class="img-rounded"></a></th>
+                    <th>
+                        <a href="../CMR/Cliente.jsp">
+                            <img src="../Recursos/Resources/images 2.png" class="img-rounded"></a></th>
+                    <th>
+                        <a href="../CMR/Empleado.jsp">
+                            <img src="../Recursos/Resources/images 3.png" class="img-rounded"></a></th>
+                    <th>
+                        <a href="../CMR/Actividades.jsp">
+                            <img src="../Recursos/Resources/images 4.png" class="img-rounded"></a></th>
+                    <th><img src="../Recursos/Resources/images 5.png" class="img-rounded"></th>
+                    <th><img src="../Recursos/Resources/images 6.png" class="img-rounded"></th>
+                    <th><img src="../Recursos/Resources/images 7.png" class="img-rounded"></th>
+                    <th><img src="../Recursos/Resources/images 8.png" class="img-rounded"></th>
+                    <th><img src="../Recursos/Resources/images 9.jpg" class="img-rounded"></th>
+                    <th><img src="../Recursos/Resources/images 10.png" class="img-rounded"></th>
+                    <th>
+                        <a>
+                            <img src="../Recursos/Resources/images 11.jpg" class="img-rounded"></a></th>
+                            <th>
+                                <a href="../CMR/principal.jsp">
+                                    <img src="../Recursos/Resources/images 12.png" class="img-rounded"></a></th>
+                    <th><img src="../Recursos/Resources/images 13.png" class="img-rounded"></th>
+                    <tr>
+                        <th>Resgistrar</th>
+                        <th>Contacto</th>
+                        <th>Cliente</th>
+                        <th>Empleado</th>
+                        <th>Actividades</th>
+                        <th>Gestion</th>
+                        <th>Inverciones</th>
+                        <th>Ventas</th>
+                        <th>Reclamos</th>
+                        <th>Backup</th>
+                        <th>Recobery</th>
+                        <th>Historial</th>
+                        <th>Acerca de</th>
+                        <th>Config.</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
+
+
